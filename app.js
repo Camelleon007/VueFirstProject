@@ -3,6 +3,7 @@ const app = Vue.createApp({
     return {
       title: "WakeCity",
       description: "My home spot.",
+      link: "http://wakecity.pl"
     };
   }
 });
