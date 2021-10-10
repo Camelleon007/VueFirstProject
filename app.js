@@ -1,16 +1,10 @@
-new Vue({
-  el: "#app",
+const app = Vue.createApp({
   data() {
     return {
-      message: "Hello Vue!",
-      goals: [],
-      enteredValue: "",
+      title: "WakeCity",
+      description: "My home spot.",
     };
-  },
-  methods: {
-    addGoal() {
-      this.goals.push(this.enteredValue);
-      this.enteredValue = "";
-    },
-  },
+  }
 });
+
+app.mount("#wake-park");
